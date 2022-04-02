@@ -117,12 +117,12 @@ val animals = arrayOf(CAMEL, LION, DEER, GOOSE, BAT, RABBIT)
 
 fun main() {
     while (true) {
-       print("Please enter the number of the habitat you would like to view: ")
-       val input = readLine()!!.toString()
-       if (input != "exit") {
-       println(animals[input.toInt()])
-       } else if (input == "exit") {
-          println("See you later!") 
-       } else break
-    } 
+        print("Please enter the number of the habitat you would like to view: ")
+        val input = readLine()!!.toString()
+        if (input != "exit") {
+            println(animals[input.toInt()])
+        } else if (input == "exit") {
+            println("See you later!")
+        } else break
+    }
 }
